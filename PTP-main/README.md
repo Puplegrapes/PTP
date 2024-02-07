@@ -20,7 +20,6 @@ We use the following four datasets for the main experiments.
 | [Yelp-full](https://github.com/yumeng5/WeSHClass)       |     Sentiment           |     5   |  39k/10k  |
 | [AG News](https://huggingface.co/datasets/ag_news) |    News Topic       |      4      |  119k/7.6k   |
 | [Yahoo! Answers](https://huggingface.co/datasets/yahoo_answers_topics)  |  QA Topic  |     5        |     180k/30.1k    |
-| [DBPedia](https://huggingface.co/datasets/dbpedia_14)     |     Ontology Topic      |      14      |     280k/70k      |
 | [TREC](https://huggingface.co/datasets/trec)     |     Question Topic      |      6      |     5k/0.5k      |
 
 The processed data can be found at [this link](https://drive.google.com/drive/folders/1qSGGxVlxmy1-T1RLDlwGlGHKrw2kEKKm?usp=sharing). The folder to put these datasets will be discribed in the following parts.
