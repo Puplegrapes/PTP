@@ -25,7 +25,7 @@ Run the following commands `run.sh` for fine-tuning the PLM with the selected da
 
 
 ## Hyperparameters
-Note: the three numbers in each grid indicate the parameter for 32/64/128 labels.
+Note: the three numbers in each grid indicate the parameter for 16/32/64/128 labels.
 
 |            | IMDB                | Yelp-full | AG News             | Yahoo!   | DBPedia        | TREC     |
 |------------|---------------------|-----------|---------------------|----------|----------------|----------|
