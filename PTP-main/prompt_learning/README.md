@@ -29,9 +29,9 @@ _Note_: the relevant configurations for prompts (e.g. verbalizers, templates) ar
 ## Hyperparameters
 Note: the three numbers in each grid indicate the parameter for 16/32/64/128 labels.
 
-|            | IMDB                | Yelp-full | AG News             | Yahoo!  | DBPedia | TREC    |
-|------------|---------------------|-----------|---------------------|---------|---------|---------|
-| BSZ        | 2/4/8/16            | 2/4/8/16  | 2/4/8/16            | 2/4/8/8 | 4/8/16  | 1/2/2/4 |
-| LR         | 2e-5/2e-5/1e-5/1e-5 | 1e-5      | 2e-5/2e-5/1e-5/1e-5 | 1e-5    | 1e-5    | 1e-5    |
-| EPOCH      | 15                  | 15        | 15                  | 15      | 15      | 15      |
-| Max Tokens | 512                 | 512       | 128                 | 256     | 128     | 64      |
+|            | IMDB                | Yelp-full | AG News             | Yahoo!  | TREC    |
+|------------|---------------------|-----------|---------------------|---------|---------|
+| BSZ        | 2/4/8/16            | 2/4/8/16  | 2/4/8/16            | 2/4/8/8 | 1/2/2/4 |
+| LR         | 2e-5/2e-5/1e-5/1e-5 | 1e-5      | 2e-5/2e-5/1e-5/1e-5 | 1e-5    | 1e-5    |
+| EPOCH      | 15                  | 15        | 15                  | 15      | 15      |
+| Max Tokens | 512                 | 512       | 128                 | 256     | 64      |
