@@ -27,9 +27,9 @@ Run the following commands `run.sh` for fine-tuning the PLM with the selected da
 ## Hyperparameters
 Note: the three numbers in each grid indicate the parameter for 16/32/64/128 labels.
 
-|            | IMDB                | Yelp-full | AG News             | Yahoo!   | DBPedia        | TREC     |
-|------------|---------------------|-----------|---------------------|----------|----------------|----------|
-| BSZ        | 2/4/8/16            | 2/4/8/16  | 2/4/8/16            | 2/4/8/16 | 4/8/16         | 2/4/8/16 |
-| LR         | 2e-5/2e-5/1e-5/1e-5 | 2e-5      | 3e-5/3e-5/3e-5/1e-5 | 5e-5     | 5e-5/5e-5/2e-5 | 2e-5     |
-| EPOCH      | 15                  | 15        | 15                  | 15       | 15             | 15       |
-| Max Tokens | 512                 | 512       | 128                 | 256      | 128            | 64       |
+|            | IMDB                | Yelp-full | AG News             | Yahoo!   | TREC     |
+|------------|---------------------|-----------|---------------------|----------|----------|
+| BSZ        | 2/4/8/16            | 2/4/8/16  | 2/4/8/16            | 2/4/8/16 | 2/4/8/16 |
+| LR         | 2e-5/2e-5/1e-5/1e-5 | 2e-5      | 3e-5/3e-5/3e-5/1e-5 | 5e-5     | 2e-5     |
+| EPOCH      | 15                  | 15        | 15                  | 15       | 15       |
+| Max Tokens | 512                 | 512       | 128                 | 256      | 64       |
