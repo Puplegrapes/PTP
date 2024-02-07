@@ -37,10 +37,6 @@ Run the following commands (example on AG News dataset)
 ```
 python ptp_sample.py --dataset agnews --n_sample 16
 ```
-Some important hyperparameters:
-- `rho`: the parameter used for uncertainty propagation in Eq. 6 of the paper 
-- `beta`: the regularization of distance in Eq. 8 of the paper 
-- `gamma`: the weight of the  regularization term in Eq. 10 of the paper
 
 ## Experiments
 ### Running Fine-tuning Experiments
